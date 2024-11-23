@@ -3,7 +3,10 @@
 This project is a deep learning application for detecting Alzheimer’s disease from 3D MRI volumes. It leverages Graph Convolutional Networks (GCNs) to classify images into either Normal or Alzheimer categories. The application is designed to be user-friendly, using a Streamlit-based web interface for inference. Below are the details for setup, usage, and implementation.
 
 ---
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+---
 ## Features
 - 3D Convolutional Network: Extracts features from 3D MRI volumes.
 - Graph Convolutional Network (GCN): Processes spatial relationships in patches of the 3D image to classify Alzheimer’s.
@@ -102,7 +105,3 @@ Defined in main.py, the GCN class integrates:
 Model Design: 
 Research: Developed by combining deep learning and neuroimaging research techniques.
 Frontend: Powered by Streamlit for a smooth user experience.
-
-----
-## License
-This project is open-source and available under the MIT License.
